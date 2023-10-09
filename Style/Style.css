@@ -1,0 +1,135 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+}
+
+.Container {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.parent_total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.parent_total input {
+    width: calc(85% / 4) !important;
+}
+
+
+.parent_total p {
+    padding: 6px;
+    border-radius: 6px;
+    color: #fff;
+    background-color: #d40a0a;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    background-color: #333;
+    border: none;
+    margin: 10px 0;
+    border-radius: 6px;
+    color: #fff;
+    caret-color: #fff;
+}
+
+input:focus,
+input {
+    outline: none;
+}
+
+input::placeholder {
+    color: #888;
+}
+
+.Create,
+.Delte_All {
+    width: 50%;
+    padding: 15px;
+    border: none;
+    background-color: #009688;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+.Delte_All {
+    display: none;
+}
+
+table {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+.Update,
+.Delete,
+button.Delte_All {
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 15px
+}
+
+.Delete {
+    background-color: #d40a0a;
+}
+
+.Update {
+    background-color: #009688;
+}
+
+.parent_Search {
+    position: relative;
+}
+
+.Btns_Search {
+    position: absolute;
+    right: 5px;
+    top: 25%;
+    height: 100%;
+}
+
+.Btns_Search button {
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background-color: #009688;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.Btns_Search button:focus {
+    background-color: #124b45;
+}
+
+.error {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d40a0a;
+}
