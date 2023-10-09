@@ -95,6 +95,7 @@ function Empty_inputs() {
     })
     Total.innerHTML = ''
     document.querySelector('.parent_total p ').style.background = '#d40a0a'
+    Name_Prod.focus()
 }
 
 
